@@ -1,0 +1,6 @@
+services:
+    app.strpad_twig_extension:
+        class: huron\TwigExtension\StrPadExtension
+        public: false
+        tags:
+            - { name: twig.extension }
